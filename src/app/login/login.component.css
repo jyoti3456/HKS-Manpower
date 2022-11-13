@@ -1,0 +1,144 @@
+/* login */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif !important;
+  /* background-image: url('/assets/img/login-bg.jpg'); */
+}
+.login-wraper {
+  width: 100%;
+  
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wraper {
+  width: 430px;
+  /* margin-left: -50%; */
+  margin-top: -6%;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 8px;
+  border-radius: 8px;
+    border-style: outset;
+    /* padding: 10px; */
+    box-shadow: 5px 5px 5px 5px #dce2dc;
+}
+.form-wraper h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+  margin: 24px 0px 0px 0px;
+}
+.form-wraper p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #757575;
+  margin: 10px 0px 24px 0px;
+}
+.logo-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.input-wrap {
+  width: 100%;
+  margin-bottom: 18px;
+  display: flex;
+  position: relative;
+}
+.input-wrap label {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #656565;
+}
+.input-wrap input {
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 10px 12px;
+  border-radius: 4px;
+  outline: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.input-wrap input::placeholder {
+  color: #b1b1b1;
+}
+.forgot-pass {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 24px;
+}
+.forgot-pass a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #389bff;
+  text-decoration: none;
+}
+.submit-bt button {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+  border: 0px;
+  padding: 8px 0px;
+  border-radius: 4px;
+}
+.show-pass {
+  background: inherit;
+  border: 0;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  outline: 0;
+  cursor: pointer;
+}
+/* login */
+/* responsive */
+@media (max-width: 767px) {
+  .form-wraper {
+    width: 100%;
+    padding: 20px;
+  }
+  .login-wraper form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .logo-section {
+    margin-bottom: 0;
+  }
+  .form-wraper h1 {
+    margin: 20px 0px 0px 0px;
+  }
+  .form-wraper p {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-wrap {
+    padding: 0;
+  }
+  .input-wrap input {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .show-pass {
+    top: 8px;
+  }
+  .forgot-pass {
+    margin-bottom: 12px;
+  }
+}
+/* responsive */

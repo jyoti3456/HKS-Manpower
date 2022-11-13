@@ -1,0 +1,6 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+.right-panel{
+    width: calc(100vh - 250px);
+}
